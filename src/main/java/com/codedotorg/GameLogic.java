@@ -55,7 +55,7 @@ public class GameLogic {
      */
     public boolean isGuessCorrect(String predictedClass) {
         
-        if(predictedClass.equals("stop"))
+        if(predictedClass.equals("2 stop"))
         {
             return true;
         }
