@@ -28,16 +28,16 @@ public class GameLogic {
      * @return an integer representing the next guess to make (-1 if the user's response is invalid)
      */
     public int binarySearch(String predictedClass) {
-        
-        if(predictedClass.equals("thumbsup"))
+        System.out.println(predictedClass);
+        if(predictedClass.equals("1 thumbsup"))
         {
             return guessHigher();
         }
-        else if(predictedClass.equals("thumbsdown"))
+        else if(predictedClass.equals("0 thumbsdown"))
         {
             return guessLower();
         }
-        else if(predictedClass.equals("stop"))
+        else if(predictedClass.equals("2 stop"))
         {
             return guessCorrect();
         }

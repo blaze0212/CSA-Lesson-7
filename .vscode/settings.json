@@ -1,3 +1,7 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.project.referencedLibraries": [
+        "C:\\Users\\shiva\\OneDrive\\Desktop\\javafx-sdk-22.0.1\\lib"
+    ]
+    
 }
